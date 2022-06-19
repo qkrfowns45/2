@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rigid;
     void Awake()
     {
-        Application.targetFrameRate = 30;
+        //Application.targetFrameRate = 30;
         rigid = GetComponent<Rigidbody2D>();
     }
 

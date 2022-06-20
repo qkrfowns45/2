@@ -15,7 +15,7 @@ C:/Users/qkrfo/2Dprjpractice
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58859
+54231
 Successfully changed project path to: C:/Users/qkrfo/2Dprjpractice
 C:/Users/qkrfo/2Dprjpractice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/qkrfo/2Dprjpractice
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 322.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path D:/unity/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,44 +63,170 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.197288 seconds.
+Registered in 0.007342 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.353 seconds
+- Completed reload, in  0.702 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5354ms)
-		BeginReloadAssembly (4337ms)
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (4338ms)
+		EndReloadAssembly (458ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016534 seconds.
+Registered in 0.012127 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\qkrfo\2Dprjpractice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\qkrfo\2Dprjpractice\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (55.6 KB). Loaded Objects now: 4508.
+Memory consumption went from 150.7 MB to 150.7 MB.
+Total: 3.303000 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.271100 ms MarkObjects: 2.603600 ms  DeleteObjects: 0.081600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2934.488951 seconds.
+  path: Assets/Tilemap/map_sample_2_1.asset
+  artifactKey: Guid(d98a3828f03c9ed4682975148fb9137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_1.asset using Guid(d98a3828f03c9ed4682975148fb9137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e37f358c8bc341dc16819c2493adac') in 0.078115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/map_sample_2_25.asset
+  artifactKey: Guid(32284e0a3174f1a48a1c27058b694998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_25.asset using Guid(32284e0a3174f1a48a1c27058b694998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcbb188759107e69c0e0693ba892e3a') in 0.013242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/map_sample_2_19.asset
+  artifactKey: Guid(931887f413877744187a10a3f67314d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_19.asset using Guid(931887f413877744187a10a3f67314d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683bca2bec17abe5f6cfa8755a20507f') in 0.015326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/map_sample_2_7.asset
+  artifactKey: Guid(ba4bb07c042417641a25d9a776b10b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_7.asset using Guid(ba4bb07c042417641a25d9a776b10b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59da5b851433b0974e75e81df16a0656') in 0.014082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/map_sample_2_24.asset
+  artifactKey: Guid(7f8f5699b4b37d14f9df0ccb1bc24dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_24.asset using Guid(7f8f5699b4b37d14f9df0ccb1bc24dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2a0998f8aa1cf6de4107c97ab26738') in 0.010876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Platform tilemap.prefab
+  artifactKey: Guid(837460a3e6afc31479a1d40d3fe3537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Platform tilemap.prefab using Guid(837460a3e6afc31479a1d40d3fe3537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe2047acc0af97923b1399a4145d989') in 0.085096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/map_sample_2_5.asset
+  artifactKey: Guid(db0f89ded646ffa469578d4e937890bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_5.asset using Guid(db0f89ded646ffa469578d4e937890bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b835e97cab01fdbdde7293bfd37ad2') in 0.013522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/map_sample_2_20.asset
+  artifactKey: Guid(f7876704cbe788d43b37bef83e5266b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_20.asset using Guid(f7876704cbe788d43b37bef83e5266b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd386759b449f7436f51d7e36809766e0') in 0.011771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/map_sample_2_10.asset
+  artifactKey: Guid(beb4e739dde398048b2f8e9155e6f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_10.asset using Guid(beb4e739dde398048b2f8e9155e6f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bb1fcc3f4a4157c34ee2af0b7c08b') in 0.011292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilemap/map_sample_2_16.asset
+  artifactKey: Guid(55e29f6e2e508ac47a4ffc939fa8273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_16.asset using Guid(55e29f6e2e508ac47a4ffc939fa8273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb84171a2170172ce92d6668391dda5') in 0.012985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilemap/map_sample_2_9.asset
+  artifactKey: Guid(8d6ba76a1c1ab67449077f05fdb6f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/map_sample_2_9.asset using Guid(8d6ba76a1c1ab67449077f05fdb6f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f645c16ba5952938173db25cd780cd5') in 0.011091 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

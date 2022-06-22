@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public float maxSpeed;
+    public float jumpPower;
     Rigidbody2D rigid;
     void Awake()
     {
@@ -12,8 +13,21 @@ public class PlayerMove : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
     }
 
+    void Update(){
+        //Jump
+        if(Input.GetButtonDown("Jump")){
+            rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        }
+
+        //Stop speed
+        if(Input.GetButtonUp("Horizontal")){
+            rigid.velocity = new Vector2(rigid.velocity.normalized.x * 0.5f, rigid.velocity.y);//단위를 구할때 normalized쓴다.
+        }
+    }
+
     void FixedUpdate()
     {
+        //Move speed
         //Move By Control
         float h = Input.GetAxisRaw("Horizontal");
 

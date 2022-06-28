@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public GameManager manager;
+
     public float maxSpeed;
     public float jumpPower;
     Rigidbody2D rigid;
+    public GameObject scanObject;
+
     void Awake()
     {
         //Application.targetFrameRate = 30;
@@ -17,6 +21,7 @@ public class PlayerMove : MonoBehaviour
         //Jump
         if(Input.GetButtonDown("Jump")){
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+            manager.Action(scanObject);
         }
 
         //Stop speed

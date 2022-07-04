@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour
         //Jump
         if(Input.GetButtonDown("Jump")){
             rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-            manager.Action(scanObject);
+            manager.Action(scanObject);    
         }
 
         //Stop speed
